@@ -19,6 +19,11 @@ import (
 )
 
 type IMongo interface {
+	StartMongoDBLocal() error
+	PauseContainer()
+	ReRunContainer()
+	ShutDownMongoLocal()
+	GetMongoDBClient() *mongo.Client
 }
 
 type mongoSup struct {
