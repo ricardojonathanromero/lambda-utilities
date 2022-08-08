@@ -3,7 +3,7 @@ package mongo_test
 import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	"github.com/ricardojonathanromero/lambda-serverless-example/api-gateway-example/infrastructure/mongo"
+	"github.com/ricardojonathanromero/lambda-utilities/dbs/mongo"
 )
 
 var _ = Describe("unit tests", func() {
